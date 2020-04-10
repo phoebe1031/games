@@ -1,3 +1,5 @@
+print("Welcome to Hangman!")
+
 from random import choice
 word_list = ["orange","apple","pear","school",'practise',"milk","like","iphone","fruit","busy","middle","good","please","size","show","concert","operation"]
 word = choice(word_list)
@@ -16,7 +18,6 @@ def hangman(word):
               "|   \|/  ",
               "|   / \  ",
               ""]
-    print("Welcome to Hangman!")
 
 # 第2部分，开始定义循环，只要wrong小于规定次数，循环以下
     while wrong < len(stages) - 1:
