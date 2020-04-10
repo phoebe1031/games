@@ -1,3 +1,4 @@
+print("""Welcome "the War""")
 from random import shuffle
 
 
